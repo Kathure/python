@@ -32,3 +32,15 @@ def get_average(student):
     ave3 = 0.6 * tests
     final = ave1 + ave2 + ave3
     return final
+def get_letter_grade(score):
+    if score >= 90 :
+        return "A"
+    elif score >=80 and score<90:
+        return "B"
+    elif score >=70 and score <80:
+        return "C"
+    elif score >=60 and score < 70:
+        return "D"
+    else :
+        return "F"
+print get_letter_grade(get_average(lloyd))
