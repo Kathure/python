@@ -23,3 +23,7 @@ def grades_variance(grades):
         variance += ((grades_average(grades) - g) ** 2)
     return variance / len(grades)
 print grades_variance(grades)
+def grades_std_deviation(variance):
+    return variance**0.5
+variance = grades_variance(grades)
+print grades_std_deviation(variance)
