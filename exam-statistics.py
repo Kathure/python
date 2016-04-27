@@ -16,12 +16,10 @@ def grades_average(grades):
     average = sum_of_grades / float(len(grades))
     return average
 
-def grades_variance(scores):
-    averages = grades_average(scores)
+
+def grades_variance(grades):
     variance = 0
-    for sco in scores:
-        averag =(averages - score)**2
-        variance += averag
-        variance = variance / float(len(grades))
-    return variance
+    for sc in scores:
+        variance += ((grades_average(grades) - g) ** 2)
+    return variance / len(grades)
 print grades_variance(grades)
