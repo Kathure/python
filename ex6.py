@@ -7,15 +7,14 @@ print x #prints vraiable x
 print y #prints variable y
 
 print "I said: %r. " %x   # prints string x inside another string %r is a placeholder for  string x
-print "I also said: '%s'." %y  #prints string y
+print "I also said: '%s'." %y  #prints string y inside another string
 
-hilarious = False
-joke_evaluation = "Isn't that joke so funny?! %r"
+hilarious = False #variable hilarious stores boolean variable False
+joke_evaluation = "Isn't that joke so funny?! %r" #valerliable joke evaliatin stores string with placeholder  for hilaious
+print joke_evaluation % hilarious  #prints both hilaious and joke_evaluation
 
-print joke_evaluation % hilarious
 
+w = "This is the left side of ..." #string variable
+e = "a string with a right side" #sting variable
 
-w = "This is the left side of ..."
-e = "a string with a right side"
-
-print w + e
+print w + e #string concatention
