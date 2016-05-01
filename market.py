@@ -1,4 +1,5 @@
-! shopping_list = ["banana", "orange", "apple"]
+#!/usr/bin/python
+shopping_list = ["banana", "orange", "apple"]
 
 stock = {
     "banana": 6,

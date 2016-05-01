@@ -1,3 +1,4 @@
+#!/usr/bin/python
 x = "There are %d types of people." %10 #variable x takes in the string statement , %d is a plceholder for the double value 10
 binary = "binary" # variable binary takes in the string "binary"
 do_not = "don't" #variable do_not is assigned the string "don't"

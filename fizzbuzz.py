@@ -1,3 +1,4 @@
+#!/usr/bin/python
 num1 = raw_input("enter a number: ")
 if float(num1)%3 == 0 and float(num1)%5 == 0:
     print "FizzBuzz"
