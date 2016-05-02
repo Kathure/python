@@ -1,7 +1,9 @@
 #!/usr/bin/python
-from sys import argv #imports argv module from sys package
 
-script, filename = argv # unpacks argv module and assigns it to variables
+from sys import argv #imports the argv module
+
+script, filename = argv #unpacks argv so that it gets assigned to variables script and filename
+
 
 print "We're going to erase %r."% filename
 print "If you don't want that, hit CTRL-C(^C)."
