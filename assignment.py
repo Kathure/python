@@ -18,4 +18,5 @@ def manipulater(x,y,z,*a):
             z[key]= "school"
         print key , z[key] ,
     print a
-manipulater(name, age,elizabeth, "female")
+
+    manipulater(name, age,elizabeth, "female")
